@@ -123,7 +123,7 @@
     $(document).ready(function () {
       $.ajax({
         type: "GET",
-        url: 'https://docs.google.com/spreadsheets/d/1GIqFrKIzSFHJEHBYxjZGt5YTvU8E-jYX_JBgIfK5fOc/gviz/tq?tqx=out:csv&sheet=Sheet1', // replace with your CSV export link
+        url: 'https://docs.google.com/spreadsheets/d/1FABRd7joaxYRnU812muFqOtXbq9cw7OPsm_olFpPodE/gviz/tq?tqx=out:csv&sheet=Sheet1', // replace with your CSV export link
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
